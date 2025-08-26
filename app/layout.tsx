@@ -79,8 +79,11 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
-			<GoogleTagManager gtmId="GTM-MP9KJGQM" />
-			<body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>{children}</body>
+
+			<body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+				<main>{children}</main>
+				<GoogleTagManager gtmId="GTM-MP9KJGQM" />
+			</body>
 		</html>
 	);
 }
