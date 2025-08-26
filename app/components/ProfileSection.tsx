@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import { sendGTMEvent } from '@next/third-parties/google';
 
 const ProfileSection = () => {
 	return (
@@ -61,7 +62,15 @@ const ProfileSection = () => {
 							</svg>
 						</a>
 					</div>
+					
 				</div>
+				<div>
+					<button
+						onClick={() => sendGTMEvent({ event: 'buttonClicked', value: 'xyz' })}
+					>
+						Send Event
+					</button>
+				</div>				
 			</div>
 		</div>
 	);

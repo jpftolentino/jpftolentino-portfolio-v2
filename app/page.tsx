@@ -1,6 +1,8 @@
+'use client'
 import ProfileSection from './components/ProfileSection';
 import SkillsSection from './components/SkillsSection';
 import ExperienceSection from './components/ExperienceSection';
+
 
 export default function MinimalistPortfolio() {
 	return (
@@ -24,6 +26,7 @@ export default function MinimalistPortfolio() {
 					</div>
 				</div>
 			</div>
+		
 		</main>
 	);
 }
