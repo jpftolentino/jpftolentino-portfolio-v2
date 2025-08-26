@@ -39,7 +39,7 @@ export const metadata: Metadata = {
 	openGraph: {
 		title: 'John Tolentino - Developer Portfolio',
 		description: 'Passionate developer creating simple and effective solutions. Explore my projects and development approach.',
-		url: 'https://your-domain.com',
+		url: 'https://jpftolentino.github.io/',
 		siteName: 'John Tolentino - Portfolio',
 		images: [
 			{
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
 		card: 'summary_large_image',
 		title: 'John Tolentino - Developer',
 		description: 'Passionate developer creating simple and effective solutions. Explore my projects and development approach.',
-		creator: '@yourusername',
+		creator: '@jpftolentino',
 		images: ['/og-image.jpg'],
 	},
 	robots: {

@@ -1,4 +1,3 @@
-'use client'
 import ProfileSection from './components/ProfileSection';
 import SkillsSection from './components/SkillsSection';
 import ExperienceSection from './components/ExperienceSection';
